@@ -1,5 +1,11 @@
-TrainData.mat : rawdata contain atom coordinate. Matlab MAT-files.
+Ref: https://www.nature.com/articles/nature21042
 
-iAtomType_New.mat : Human Label data. Matlab MAT-files.
+TrainData.mat : rawdata contain atom coordinate for training. Matlab MAT-files.
 
-dAtomIntensity_TrainData_New.mat : Crop local data for certain atom. hdf5 format.
+iAtomType_New.mat : Human Label data for training data. Matlab MAT-files.
+
+dAtomIntensity_TrainData_New.mat : Crop local data for certain atom in training. hdf5 format.
+
+TestData.mat : rawdata contain atom coordinate for testing. Matlab MAT-files.
+
+dAtomIntensity_TestData_New.mat : Crop local data for certain atom in testing. hdf5 format.
