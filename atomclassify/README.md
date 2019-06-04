@@ -11,6 +11,15 @@ Ref: https://www.nature.com/articles/nature21042
 從影像萃取資訊來作為訓練資料集，訓練機器來進行分類，減少人工判讀的成分。
 
 # 流程
+1. 利用影像中強度決定各原子位置。
+
+2. 以第i個原子為中心，挖取鄰近一定範圍的ROI(Region of Interest)，EX.(7*7*7)，作為3D影像。
+
+3. 先以影像資訊統計的方式選出2000個可以明顯判別中心原子類別的影像，做為已標記的訓練資料集。
+
+4. 使用3D CNN進行中心原子分類的引擎訓練。
+
+# 檔案說明
 
 * TrainData.mat : rawdata contain atom coordinate for training. Matlab MAT-files.
 
