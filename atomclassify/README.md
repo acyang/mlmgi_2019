@@ -29,4 +29,4 @@ Ref: https://www.nature.com/articles/nature21042
 
 * TestData.mat : rawdata contain atom coordinate for testing. Matlab MAT-files.
 
-* dAtomIntensity_TestData_New.mat : Crop local data for certain atom in testing. hdf5 format.
+* dAtomIntensity_TestData_New.mat : Crop local data for certain atom in testing. hdf5 format.(File size exceeds the github limitation. Please go to E3 platform to download it.)
