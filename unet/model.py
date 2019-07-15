@@ -9,6 +9,7 @@ from keras.optimizers import *
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler
 from keras import backend as keras
 
+#os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 def unet(pretrained_weights = None,input_size = (512,512,1)):
     inputs = Input(input_size)
